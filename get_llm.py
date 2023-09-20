@@ -5,7 +5,7 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline, AutoModelForSeq2SeqLM
 
 import os
-os.environ['HUGGINGFACEHUB_API_TOKEN'] = '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'
+os.environ['HUGGINGFACEHUB_API_TOKEN'] = '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' # no longer active ;)
 
 model_id = 'google/flan-t5-large'# go for a smaller model if you dont have the VRAM
 tokenizer = AutoTokenizer.from_pretrained(model_id)
